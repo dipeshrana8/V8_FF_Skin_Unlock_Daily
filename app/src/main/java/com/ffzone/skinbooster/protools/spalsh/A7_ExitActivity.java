@@ -10,7 +10,7 @@ public class A7_ExitActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        toolbarHeaderText = "Are Sure to Exit?";
+        toolbarHeaderText = "Are Sure to Exit";
         showSettings = true;
         super.onCreate(savedInstanceState);
         binding = ActivityExitBinding.inflate(getLayoutInflater());
